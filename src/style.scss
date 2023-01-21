@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@500;800&display=swap');
+
+*, *::after, *::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+:root {
+
+  --primary-red: hsl(1, 90%, 64%);
+  --primary-blue: hsl(219, 85%, 26%);
+ 
+  --neutral-100: hsl(0, 0%, 100%);
+  --neutral-200: hsl(210, 60%, 98%);
+  --neutral-300: hsl(211, 68%, 94%);
+  --neutral-400: hsl(205, 33%, 90%);
+  --neutral-500: hsl(219, 14%, 63%);
+  --neutral-600: hsl(219, 12%, 42%);
+  --neutral-700: hsl(224, 21%, 14%);
+
+  font-family: 'Plus Jakarta Sans', sans-serif;
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 400;
+  color-scheme: light dark;
+  background-color: var(--neutral-100);
+  color: var(--neutral-600); 
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%;
+}
+
+
+body {
+  // display: flex;
+  min-width: 320px;
+  min-height: 100vh;
+  background-color: #F9FAFE;
+}
+
+
+
+@media (prefers-color-scheme: light) {
+  :root {
+    color: #213547;
+    background-color: #ffffff;
+  }
+  a:hover {
+    color: #747bff;
+  }
+  button {
+    background-color: #f9f9f9;
+  }
+}
